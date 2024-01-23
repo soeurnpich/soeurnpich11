@@ -1,0 +1,591 @@
+<?php
+include('css.php');
+?>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" media="all">
+<div class = "card-wrapper">
+  <div class = "card">
+    <!-- card left -->
+    <div class = "product-imgs">
+      <div class = "img-display">
+        <div class = "img-showcase">
+          <img src = "image/ADV2.jpg" alt = "shoe image">
+          <img src = "image/ADV3.jpg" alt = "shoe image">
+          <img src = "image/ADV4.jpg" alt = "shoe image">
+          <img src = "image/ADV3.jpg" alt = "shoe image">
+        </div>
+      </div>
+      <div class = "img-select">
+        <div class = "img-item">
+          <a href = "#" data-id = "1">
+            <img src = "image/ADV2.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "2">
+            <img src = "image/ADV3.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "3">
+            <img src = "image/ADV4.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "4">
+            <img src = "image/ADV3.jpg" alt = "shoe image">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card right -->
+    <div class = "product-content">
+      <h2 class = "product-title">ADV 2021</h2>
+      <a href = "#" class = "product-link">visit nike store</a>
+      <div class = "product-rating">
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star-half-alt"></i>
+        <span>4.7(21)</span>
+      </div>
+
+      <div class = "product-price">
+        <p class = "last-price">Old Price: <span>$5200.00</span></p>
+        <p class = "new-price">New Price: <span>$4800.00 (5%)</span></p>
+      </div>
+
+      <div class = "product-detail">
+        <h2>about this item: </h2>
+        <p>Scooters present an around-town ease of use, but the ADV150 extends that friendliness to the dirt. Equipped with stable suspension</p>
+        <p>decent braking system, smart key, and LED lighting, this scooter offers versatility with modern amenities.</p>
+        <ul>
+          <li>Color: <span>Black</span></li>
+          <li>Available: <span>in stock</span></li>
+          <li>Category: <span>01-10-2023</span></li>
+          <li>Shipping Area: <span>All over the world</span></li>
+          <li>Shipping Fee: <span>Free</span></li>
+        </ul>
+      </div>
+
+      <div class = "purchase-info">
+        <input type = "number" min = "0" value = "1">
+        <button type = "button" class = "btn">
+         <a href="http://localhost:8080/formpayment/index1.php" style="text-decoration: none; color: white;"> កម្ម៉ងទិញលុយសុទ្ធ</a><i class = "fas fa-shopping-cart"></i>
+        </button>
+        <button type = "button" class = "btn">កម្ម៉ងទិញបង់រំលស់</button>
+      </div>
+
+      <div class = "social-links">
+        <p>Share At: </p>
+        <a href = "#">
+          <i class = "fab fa-facebook-f"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-twitter"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-instagram"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-whatsapp"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class = "card-wrapper">
+  <div class = "card">
+    <!-- card left -->
+    <div class = "product-imgs">
+      <div class = "img-display">
+        <div class = "img-showcase">
+          <img src = "image/CBR1.jpg" alt = "shoe image">
+          <img src = "image/CBR2.jpg" alt = "shoe image">
+          <img src = "image/CBR3.jpg" alt = "shoe image">
+          <img src = "image/CBR4.jpg" alt = "shoe image">
+        </div>
+      </div>
+      <div class = "img-select">
+        <div class = "img-item">
+          <a href = "#" data-id = "1">
+            <img src = "image/CBR1.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "2">
+            <img src = "image/CBR2.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "3">
+            <img src = "image/CBR3.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "4">
+            <img src = "image/CBR4.jpg" alt = "shoe image">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card right -->
+    <div class = "product-content">
+      <h2 class = "product-title">CBR R250RR 2023</h2>
+      <a href = "#" class = "product-link">visit nike store</a>
+      <div class = "product-rating">
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star-half-alt"></i>
+        <span>4.7(21)</span>
+      </div>
+
+      <div class = "product-price">
+        <p class = "last-price">Old Price: <span>$600.00</span></p>
+        <p class = "new-price">New Price: <span>$5800.00 (5%)</span></p>
+      </div>
+
+      <div class = "product-detail">
+        <h2>about this item: </h2>
+        <p>Scooters present an around-town ease of use, but the CBR250 extends that friendliness to the dirt. Equipped with stable suspension</p>
+        <p>decent braking system, smart key, and LED lighting, this scooter offers versatility with modern amenities.</p>
+        <ul>
+          <li>Color: <span>Red</span></li>
+          <li>Available: <span>in stock</span></li>
+          <li>Category: <span>01-10-2023</span></li>
+          <li>Shipping Area: <span>All over the world</span></li>
+          <li>Shipping Fee: <span>Free</span></li>
+        </ul>
+      </div>
+
+      <div class = "purchase-info">
+        <input type = "number" min = "0" value = "1">
+        <button type = "button" class = "btn">
+         <a href="http://localhost:8080/formpayment/index1.php" style="text-decoration: none; color: white;"> កម្ម៉ងទិញលុយសុទ្ធ</a><i class = "fas fa-shopping-cart"></i>
+        </button>
+        <button type = "button" class = "btn">កម្ម៉ងទិញបង់រំលស់</button>
+      </div>
+
+      <div class = "social-links">
+        <p>Share At: </p>
+        <a href = "#">
+          <i class = "fab fa-facebook-f"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-twitter"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-instagram"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-whatsapp"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class = "card-wrapper">
+  <div class = "card">
+    <!-- card left -->
+    <div class = "product-imgs">
+      <div class = "img-display">
+        <div class = "img-showcase">
+          <img src = "image/CB1.jpg" alt = "shoe image">
+          <img src = "image/CB2.jpg" alt = "shoe image">
+          <img src = "image/CB3.jpg" alt = "shoe image">
+          <img src = "image/CB4.jpg" alt = "shoe image">
+        </div>
+      </div>
+      <div class = "img-select">
+        <div class = "img-item">
+          <a href = "#" data-id = "1">
+            <img src = "image/CB1.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "2">
+            <img src = "image/CB2.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "3">
+            <img src = "image/CB3.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "4">
+            <img src = "image/CB4.jpg" alt = "shoe image">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card right -->
+    <div class = "product-content">
+      <h2 class = "product-title">CB150 2023</h2>
+      <a href = "#" class = "product-link">visit nike store</a>
+      <div class = "product-rating">
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star-half-alt"></i>
+        <span>4.7(21)</span>
+      </div>
+
+      <div class = "product-price">
+        <p class = "last-price">Old Price: <span>$4700.00</span></p>
+        <p class = "new-price">New Price: <span>$4550.00 (5%)</span></p>
+      </div>
+
+      <div class = "product-detail">
+        <h2>about this item: </h2>
+        <p>Scooters present an around-town ease of use, but the CB150 extends that friendliness to the dirt. Equipped with stable suspension</p>
+        <p>decent braking system, smart key, and LED lighting, this scooter offers versatility with modern amenities.</p>
+        <ul>
+          <li>Color: <span>White</span></li>
+          <li>Available: <span>in stock</span></li>
+          <li>Category: <span>01-10-2023</span></li>
+          <li>Shipping Area: <span>All over the world</span></li>
+          <li>Shipping Fee: <span>Free</span></li>
+        </ul>
+      </div>
+
+      <div class = "purchase-info">
+        <input type = "number" min = "0" value = "1">
+        <button type = "button" class = "btn">
+         <a href="http://localhost:8080/formpayment/index1.php" style="text-decoration: none; color: white;"> កម្ម៉ងទិញលុយសុទ្ធ</a><i class = "fas fa-shopping-cart"></i>
+        </button>
+        <button type = "button" class = "btn">កម្ម៉ងទិញបង់រំលស់</button>
+      </div>
+
+      <div class = "social-links">
+        <p>Share At: </p>
+        <a href = "#">
+          <i class = "fab fa-facebook-f"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-twitter"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-instagram"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-whatsapp"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class = "card-wrapper">
+  <div class = "card">
+    <!-- card left -->
+    <div class = "product-imgs">
+      <div class = "img-display">
+        <div class = "img-showcase">
+          <img src = "image/BMW1.jpg" alt = "shoe image">
+          <img src = "image/BMW2.jpg" alt = "shoe image">
+          <img src = "image/BMW3.jpg" alt = "shoe image">
+          <img src = "image/BMW4.jpg" alt = "shoe image">
+        </div>
+      </div>
+      <div class = "img-select">
+        <div class = "img-item">
+          <a href = "#" data-id = "1">
+            <img src = "image/BMW1.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "2">
+            <img src = "image/BMW2.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "3">
+            <img src = "image/BMW3.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "4">
+            <img src = "image/BMW4.jpg" alt = "shoe image">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card right -->
+    <div class = "product-content">
+      <h2 class = "product-title">BMW Announces 2023</h2>
+      <a href = "#" class = "product-link">visit nike store</a>
+      <div class = "product-rating">
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star-half-alt"></i>
+        <span>4.7(21)</span>
+      </div>
+
+      <div class = "product-price">
+        <p class = "last-price">Old Price: <span>$10000.00</span></p>
+        <p class = "new-price">New Price: <span>$9999.00 (5%)</span></p>
+      </div>
+
+      <div class = "product-detail">
+        <h2>about this item: </h2>
+        <p>Scooters present an around-town ease of use, but the BMW Announces 2023 extends that friendliness to the dirt. Equipped with stable</p>
+        <p>decent braking system, smart key, and LED lighting, </p>
+        <ul>
+          <li>Color: <span>White</span></li>
+          <li>Available: <span>in stock</span></li>
+          <li>Category: <span>01-10-2023</span></li>
+          <li>Shipping Area: <span>All over the world</span></li>
+          <li>Shipping Fee: <span>Free</span></li>
+        </ul>
+      </div>
+
+      <div class = "purchase-info">
+        <input type = "number" min = "0" value = "1">
+        <button type = "button" class = "btn">
+         <a href="http://localhost:8080/formpayment/index1.php" style="text-decoration: none; color: white;"> កម្ម៉ងទិញលុយសុទ្ធ</a><i class = "fas fa-shopping-cart"></i>
+        </button>
+        <button type = "button" class = "btn">កម្ម៉ងទិញបង់រំលស់</button>
+      </div>
+
+      <div class = "social-links">
+        <p>Share At: </p>
+        <a href = "#">
+          <i class = "fab fa-facebook-f"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-twitter"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-instagram"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-whatsapp"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class = "card-wrapper">
+  <div class = "card">
+    <!-- card left -->
+    <div class = "product-imgs">
+      <div class = "img-display">
+        <div class = "img-showcase">
+          <img src = "image/HONDA1.jpg" alt = "shoe image">
+          <img src = "image/HONDA2.jpg" alt = "shoe image">
+          <img src = "image/HONDA3.jpg" alt = "shoe image">
+          <img src = "image/HONDA4.jpg" alt = "shoe image">
+        </div>
+      </div>
+      <div class = "img-select">
+        <div class = "img-item">
+          <a href = "#" data-id = "1">
+            <img src = "image/HONDA1.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "2">
+            <img src = "image/HONDA2.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "3">
+            <img src = "image/HONDA3.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "4">
+            <img src = "image/HONDA4.jpg" alt = "shoe image">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card right -->
+    <div class = "product-content">
+      <h2 class = "product-title">HONDA DREAM 2023</h2>
+      <a href = "#" class = "product-link">visit nike store</a>
+      <div class = "product-rating">
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star-half-alt"></i>
+        <span>4.7(21)</span>
+      </div>
+
+      <div class = "product-price">
+        <p class = "last-price">Old Price: <span>$2100.00</span></p>
+        <p class = "new-price">New Price: <span>$2000.00 (5%)</span></p>
+      </div>
+
+      <div class = "product-detail">
+        <h2>about this item: </h2>
+        <p>Scooters present an around-town ease of use, but the Honda dream 2023 extends that friendliness to the dirt. Equipped with stable</p>
+        <p>decent braking system, smart key, and LED lighting, </p>
+        <ul>
+          <li>Color: <span>White Red Gold black</span></li>
+          <li>Available: <span>in stock</span></li>
+          <li>Category: <span>01-10-2023</span></li>
+          <li>Shipping Area: <span>All over the world</span></li>
+          <li>Shipping Fee: <span>Free</span></li>
+        </ul>
+      </div>
+
+      <div class = "purchase-info">
+        <input type = "number" min = "0" value = "1">
+        <button type = "button" class = "btn">
+         <a href="http://localhost:8080/formpayment/index1.php" style="text-decoration: none; color: white;"> កម្ម៉ងទិញលុយសុទ្ធ</a><i class = "fas fa-shopping-cart"></i>
+        </button>
+        <button type = "button" class = "btn">កម្ម៉ងទិញបង់រំលស់</button>
+      </div>
+
+      <div class = "social-links">
+        <p>Share At: </p>
+        <a href = "#">
+          <i class = "fab fa-facebook-f"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-twitter"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-instagram"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-whatsapp"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class = "card-wrapper">
+  <div class = "card">
+    <!-- card left -->
+    <div class = "product-imgs">
+      <div class = "img-display">
+        <div class = "img-showcase">
+          <img src = "image/CLICK1.jpg" alt = "shoe image">
+          <img src = "image/CLICK2.jpg" alt = "shoe image">
+          <img src = "image/CLICK3.jpg" alt = "shoe image">
+          <img src = "image/CLICK4.jpg" alt = "shoe image">
+        </div>
+      </div>
+      <div class = "img-select">
+        <div class = "img-item">
+          <a href = "#" data-id = "1">
+            <img src = "image/CLICK1.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "2">
+            <img src = "image/CLICK2.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "3">
+            <img src = "image/CLICK3.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "4">
+            <img src = "image/CLICK4.jpg" alt = "shoe image">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card right -->
+    <div class = "product-content">
+      <h2 class = "product-title">HONDA CLICK160cc 2023</h2>
+      <a href = "#" class = "product-link">visit nike store</a>
+      <div class = "product-rating">
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star-half-alt"></i>
+        <span>4.7(21)</span>
+      </div>
+
+      <div class = "product-price">
+        <p class = "last-price">Old Price: <span>$4900.00</span></p>
+        <p class = "new-price">New Price: <span>$4800.00 (5%)</span></p>
+      </div>
+
+      <div class = "product-detail">
+        <h2>about this item: </h2>
+        <p>Scooters present an around-town ease of use, but the Honda click160cc 2023 extends that friendliness to the dirt. Equipped with stable</p>
+        <p>decent braking system, smart key, and LED lighting, </p>
+        <ul>
+          <li>Color: <span>White Red Gold black</span></li>
+          <li>Available: <span>in stock</span></li>
+          <li>Category: <span>01-10-2023</span></li>
+          <li>Shipping Area: <span>All over the world</span></li>
+          <li>Shipping Fee: <span>Free</span></li>
+        </ul>
+      </div>
+
+      <div class = "purchase-info">
+        <input type = "number" min = "0" value = "1">
+        <button type = "button" class = "btn">
+         <a href="http://localhost:8080/formpayment/index1.php" style="text-decoration: none; color: white;"> កម្ម៉ងទិញលុយសុទ្ធ</a><i class = "fas fa-shopping-cart"></i>
+        </button>
+        <button type = "button" class = "btn">កម្ម៉ងទិញបង់រំលស់</button>
+      </div>
+
+      <div class = "social-links">
+        <p>Share At: </p>
+        <a href = "#">
+          <i class = "fab fa-facebook-f"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-twitter"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-instagram"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-whatsapp"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<?php
+include('javascript.php');
+?>
+
