@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Roboto;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+.header-top {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+#corpo {
+  background-color: #bdff06;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: auto;
+}
+.img{
+  position: absolute;
+  margin: 100px 0 0 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: 180%;
+  box-shadow: 10px 10px 15px #000;
+  transition: all .5s;
+  background-position: center center;
+}
+.f-nav{ 
+  z-index: 9999; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
+  background: #000;
+  box-shadow: rgba(0,0,0,.1) 0 10px 15px;  
+}
+.menu{
+  width: 500px;
+  margin: auto auto;
+}
+.menu .menu-list, .menu .sub-menu{
+  list-style: none;
+}
+.menu a{
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.15em;
+  font-weight: 400;
+  letter-spacing:0.2em;
+  outline: 0;
+  text-align: center;
+}
+.menu > .menu-list > li{
+  float: left;
+  position: relative;
+  width: 120px;
+  
+}
+.menu > .menu-list > li > a {
+  padding: 20px;
+  margin: 0 0px;
+  color: #fff;
+  transition: all .1s;
+  text-shadow: 10px 10px 15px #000000;
+}
+/* Configura o fundo do menu principal quando com mouse hover */
+.menu > .menu-list > li:hover a {
+  transform: scale(1.2);
+}
+
+/*===================== BODY ======================*/
+section#body {
+	color: #adabab;
+}
+.jumbotrom {
+	min-height: 300px;
+}
+.content {
+  padding: 40px;
+  text-align: center;
+}
+#main{
+  height: 450px;
+  margin-top: 150px;
+  padding-bottom: 100px;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+  color: #fff;
+}
+#main h2 {
+  font-size: 70px;
+  text-shadow: 10px 10px 15px #000;
+}
+#main p {
+  font-size: 20px;
+  margin-top: 40px;
+}
+#article-02 {
+  background: #333;
+  padding: 2em;
+}
+#article-02 h2{
+  color: #009a5c;
+  padding-bottom: 20px;
+}
+#article-02 p {
+  font-size: 20px;
+}
+#article-03 h2 {
+  font-size: 50px;
+  color: #009a5c;
+  text-shadow: 5px 5px 15px #000;
+}
+#article-03 h3 {
+  font-size: 30px;
+  padding-top: 40px;
+  text-shadow: 5px 5px 15px #000;
+}
+table {
+  margin: auto;
+  padding-top: 50px;
+}
+th {
+  padding: 20px 40px;
+}
+th > a {
+	outline: 0;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.table img {
+  width: 50px;
+  height: 50px;
+}
+.os-fixing {
+  width: 80px;
+  height: 80px;
+  overflow: auto;
+}
+#skills{
+  margin-top: 100px;
+  font-size: 50px;
+  
+}
+
+.pulseOnHolver {
+  transition: width .3s; 
+}
+
+.pulseOnHolver:hover > img {
+  width: 80px;
+  height: 80px;
+}
+
+/*===================== FOOTER ======================*/
+footer {
+  min-height: 100px;
+	background: #000;
+}
+
+footer h3 {
+  font-size: 20px;
+  color: #fff;
+  padding: 40px;
+}
+
+@media screen and (max-width: 720px){
+  
+  .menu a {
+    font-size: 1em;
+    letter-spacing: 0em;
+  }
+  .menu > ul{
+    padding-left: 0px;
+  }
+  th {
+    padding: 10px 20px;
+  }
+  
+  .table img {
+    width: 40px;
+    height: 40px;
+  }
+  #article-01 h2 {
+    font-size: 50px;
+  }
+  #article-01 h3 {
+    font-size: 30px;
+  }
+  #article-02 p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 582px) {
+
+  img {
+    width: 55px;
+    height: 55px;
+  } 
+}
+
+@media screen and (max-width: 470px){
+  .content {
+    padding: 20px;
+  }
+  .header-top {
+    margin-bottom: 0;
+  }
+  
+  .profile-photo{
+    height: 150px;
+    width: 150px;
+  }
+  .menu{
+    width: 240px;
+  }
+  .menu > .menu-list {
+    margin-left: -16px;
+  }
+  .menu > .menu-list > li{
+    width: 80px;
+  }
+  .img-table {
+    width: 250px;
+  }
+  th {
+    padding: 5px;
+  }
+  img {
+    width: 49px;
+    height: 49px;
+  }
+  .table img {
+    margin: 10px;
+    width: 33px;
+    height: 33px;
+  }
+  #article-01 {
+    margin-top: 70px;
+  }
+  #article-01 h2 {
+    font-size: 40px;
+  }
+  #article-01 h3 {
+    font-size: 25px;
+  }
+  #article-01 p {
+    font-size: 16px;
+  }
+  #article-02 h2 {
+    font-size: 40px;
+  }
+  #article-02 p {
+    font-size: 15px;
+  }
+}
